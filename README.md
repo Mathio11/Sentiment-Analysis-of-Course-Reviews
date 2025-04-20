@@ -1,10 +1,10 @@
-# 📊 Sentiment Analysis of Course Reviews
+# Sentiment Analysis of Course Reviews
 
 This project implements sentiment analysis on student-written course reviews, classifying them into **Positive**, **Neutral**, or **Negative** sentiments. The analysis aims to assist educational institutions in understanding student feedback and improving course quality.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The project uses the **100K Coursera Course Reviews** dataset scraped from Kaggle. Each entry includes:
 - A unique ID
@@ -23,7 +23,7 @@ The project uses the **100K Coursera Course Reviews** dataset scraped from Kaggl
 
 ---
 
-## 🛠️ Methodology
+## 🛠Methodology
 
 ### 🔹 Preprocessing
 - Lowercasing
@@ -55,31 +55,25 @@ The project uses the **100K Coursera Course Reviews** dataset scraped from Kaggl
 
 ---
 
-## 🤖 Classifiers Used
+## Classifiers Used
 
 Three ML classifiers were trained on both **cleaned** and **augmented** text:
 - Naive Bayes
 - Decision Tree
 - Random Forest (100 estimators)
 
-> Train-test split: **80-20**  
-> Evaluation: **10-fold Cross-Validation**
+- Train-test split: **80-20**  
+- Evaluation: **10-fold Cross-Validation**
 
 ---
 
-## 📈 Results
+## Results
 
 | Model         | Cleaned Text Accuracy | Augmented Text Accuracy |
 |---------------|-----------------------|--------------------------|
 | Naive Bayes   | Lower                 | Improved                 |
 | Decision Tree | Better Negative Class | Improved Overall         |
 | Random Forest | **Best Overall**      | **Best Overall**         |
-
-<p align="center">
-  <img src="figures/accuracy_results.png" width="700"/>
-  <br/>
-  <em>Fig: Accuracy Comparison Across Models</em>
-</p>
 
 ---
 
@@ -92,7 +86,7 @@ Three ML classifiers were trained on both **cleaned** and **augmented** text:
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 - Coursera review dataset via Kaggle
 - WordNet for synonym augmentation
