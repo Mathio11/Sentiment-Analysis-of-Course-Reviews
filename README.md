@@ -75,7 +75,6 @@ matplotlib
 seaborn
 scikit-learn
 nltk
-
 ```
 ---
 
