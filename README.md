@@ -23,7 +23,7 @@ The project uses the **100K Coursera Course Reviews** dataset scraped from Kaggl
 
 ---
 
-## 🛠Methodology
+## Methodology
 
 ### 🔹 Preprocessing
 - Lowercasing
@@ -77,7 +77,7 @@ Three ML classifiers were trained on both **cleaned** and **augmented** text:
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 - **Data Augmentation** enhances model performance across all classifiers
 - **Random Forest** achieves the highest classification accuracy
