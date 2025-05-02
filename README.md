@@ -51,7 +51,7 @@ The project uses the **100K Coursera Course Reviews** dataset scraped from Kaggl
 - **Bag-of-Words Vectorization** to convert text to numerical features
 
 ### 🔹 Imbalance Handling
-- **SMOTE (Synthetic Minority Over-sampling Technique)** used to oversample Neutral and Negative classes
+- **SMOTE (Synthetic Minority Over-sampling Technique)** is used to oversample Neutral and Negative classes
 
 ---
 
@@ -65,6 +65,18 @@ Three ML classifiers were trained on both **cleaned** and **augmented** text:
 - Train-test split: **80-20**  
 - Evaluation: **10-fold Cross-Validation**
 
+---
+
+## Required Libraries
+```
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+nltk
+
+```
 ---
 
 ## Results
@@ -88,6 +100,4 @@ Three ML classifiers were trained on both **cleaned** and **augmented** text:
 
 ## Acknowledgments
 
-- Coursera review dataset via Kaggle
-- WordNet for synonym augmentation
-- Scikit-learn for modeling & evaluation
+- The authors of the Coursera review dataset on Kaggle
